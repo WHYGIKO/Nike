@@ -1,0 +1,230 @@
+@media(max-width:1300px) {
+    .intro{
+        height: 550px;
+    }
+}
+@media(max-width:1140px) {
+    .nike_box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nike_right{
+        max-width: 540px;
+    }
+    .intro{
+        height: 500px;
+    }
+}
+@media(max-width:900px) {
+    .intro{
+        height: 450px;
+    }
+    .menu{
+        display: block;
+    }
+    .close{
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    .nav_list{
+        flex-direction: column;
+        position: fixed;
+        background-color: #322E41;
+        top: 0;
+        right: 0;
+        padding: 50px 40px;
+        text-align: center;
+        height: 100%;
+        z-index: 99;
+        transform: translateX(100%);
+        transition: 0.5s;
+        gap: 10px;
+    }
+    .nav{
+        padding: 15px 0;
+    }
+    #checkbox:checked~.nav_list{
+        transform: translateX(0);
+    }
+    .footer{
+        padding: 20px 0;
+    }
+    .footer_box{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .footer_nav{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .footer_list{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .nav_link{
+        padding: 10px;
+    }
+}
+
+@media(max-width:800px) {
+    .intro{
+        height: 400px;
+    }
+}
+@media(max-width:700px) {
+    .intro{
+        height: 350px;
+    }
+    .nav_logo img{
+        width: 80px;
+    }
+    .nav{
+        padding: 10px 0;
+    }
+    .intro_title{
+        font-size: 42px;
+        line-height: 100%;
+    }
+    .intro_text{
+        font-size: 16px;
+        line-height: 100%;
+    }
+    .intro{
+        gap: 10px;
+    }
+    .nike_box{
+        gap: 15px;
+        transform: translateY(-15px);
+    }
+    .nike_right{
+        gap: 15px;
+    }
+    .nike_left{
+        text-align: center;
+    }
+    .nike_left img{
+        max-width: 450px;
+        width: 100%;
+    }
+    .nike_left_title{
+        font-size: 20px;
+        margin: 10px 0;
+        line-height: 100%;
+    }
+    .nike_left_text{
+        text-align: justify;
+    }
+    .nike_card img{
+        width: 75px;
+    }
+}
+@media(max-width:600px) {
+    .intro{
+        height: 300px;
+    }
+    .footer_form{
+        max-width: 300px;
+    }
+}
+@media(max-width:570px) {
+
+    .nike_right{
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        width: 100%;
+    }
+    .nike_card{
+        flex-shrink: 0;
+    }
+}
+@media(max-width:500px) {
+    .intro{
+        height: 250px;
+    }
+    .nav_logo img{
+        width: 70px;
+    }
+    .intro_title{
+        font-size: 35px;
+    }
+    .intro_text{
+        font-size: 15px;
+    }
+    .nike_left{
+        padding: 10px;
+    }
+    .nike_left img{
+        max-width: 400px;
+    }
+    .nike_card{
+        gap: 5px;
+    }
+    .nike_left_title,
+    .nike_card_title{
+        font-size: 18px;
+        margin: 8px 0;
+    }
+    .nike_left_text,
+    .nike_card_text{
+      font-size: 15px;
+      line-height: 110%;
+    }
+    .nike_card{
+        width: 220px;
+    }
+    .nike_card img{
+        width: 70px;
+    }
+    .footer_input,
+    .footer_textarea{
+        padding: 7px;
+        font-size: 15px;
+    }
+    .footer_btn{
+        padding: 7px 0;
+    }
+    .footer_textarea{
+        height: 75px;
+    }
+    .footer_form{
+        max-width: 270px;
+    }
+ 
+}
+@media(max-width:400px) {
+    .nav{
+        padding: 8px 0;
+    }
+    .nav_list{
+        padding: 50px 30px;
+        gap: 8px;
+    }
+    .nav_link{
+        padding: 8px;
+    }
+    .menu img,
+    .close img{
+        width: 25px;
+    }
+    .intro{
+        height: 220px;
+    }
+    .intro_title{
+        font-size: 30px;
+    }
+    .nike_left_text{
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow-y: scroll;
+
+    }
+}
+@media(max-width:370px) {
+    .nike_left_title{
+        font-size: 16px;
+        margin: 5px 0;
+    }
+}
